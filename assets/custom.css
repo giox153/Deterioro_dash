@@ -1,0 +1,187 @@
+/* assets/custom.css
+   Estilos globales del dashboard de Deterioro de Micromedidores
+   Triple A - Barranquilla
+*/
+
+/* ── Fondo global ──────────────────────────────────────────────────────────── */
+body {
+    background-color: #060F1C !important;
+    color: #cbd5e1;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* ── Scrollbar personalizado ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #091626; }
+::-webkit-scrollbar-thumb { background: #1e3a5f; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3B82F6; }
+
+/* ── Dropdowns de Dash (Select2 / react-select) ────────────────────────────── */
+.Select-control,
+.Select--single > .Select-control,
+.VirtualizedSelectFocusedOption,
+.Select-menu-outer {
+    background-color: #091626 !important;
+    border-color: #1e3a5f !important;
+    color: #cbd5e1 !important;
+}
+
+.Select-value-label,
+.Select-placeholder,
+.Select-input input {
+    color: #cbd5e1 !important;
+}
+
+.Select-menu-outer {
+    background-color: #0D1E35 !important;
+    border: 1px solid #1e3a5f !important;
+    border-radius: 8px !important;
+    z-index: 9999 !important;
+}
+
+.Select-option {
+    background-color: #0D1E35 !important;
+    color: #cbd5e1 !important;
+}
+
+.Select-option:hover,
+.Select-option.is-focused {
+    background-color: #1e3a5f !important;
+    color: #ffffff !important;
+}
+
+.Select-option.is-selected {
+    background-color: #3B82F6 !important;
+    color: #ffffff !important;
+}
+
+/* Dash 2.x usa react-select con clases distintas */
+.dash-dropdown .Select-control {
+    background-color: #091626 !important;
+    border: 1px solid #1e3a5f !important;
+}
+
+/* ── Sliders ───────────────────────────────────────────────────────────────── */
+.rc-slider-track { background-color: #3B82F6 !important; }
+.rc-slider-handle {
+    border-color: #3B82F6 !important;
+    background-color: #3B82F6 !important;
+}
+.rc-slider-rail { background-color: #1e3a5f !important; }
+.rc-slider-tooltip-inner {
+    background-color: #091626 !important;
+    color: #ffffff !important;
+    border: 1px solid #1e3a5f;
+    font-size: 0.78rem;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* ── Cards Bootstrap ───────────────────────────────────────────────────────── */
+.card {
+    background-color: #0D1E35 !important;
+    border: 1px solid #1e3a5f !important;
+}
+
+.card-body {
+    color: #cbd5e1;
+}
+
+/* ── Tablas Bootstrap ──────────────────────────────────────────────────────── */
+.table {
+    color: #cbd5e1 !important;
+}
+
+.table thead th {
+    background-color: #091626 !important;
+    color: #ffffff !important;
+    border-color: #1e3a5f !important;
+}
+
+.table td, .table th {
+    border-color: #1e3a5f !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #091626 !important;
+}
+
+/* ── Alerts ────────────────────────────────────────────────────────────────── */
+.alert-warning {
+    background-color: #2d1f00 !important;
+    border-color: #E07B2A !important;
+    color: #fbbf24 !important;
+}
+
+.alert-danger {
+    background-color: #2d0a0a !important;
+    border-color: #EF4444 !important;
+    color: #fca5a5 !important;
+}
+
+/* ── Progress bars ─────────────────────────────────────────────────────────── */
+.progress {
+    background-color: #1e3a5f !important;
+}
+
+/* ── NavBar ────────────────────────────────────────────────────────────────── */
+.navbar {
+    background-color: #060F1C !important;
+}
+
+.nav-link:hover {
+    color: #3B82F6 !important;
+}
+
+/* ── Hover cards ───────────────────────────────────────────────────────────── */
+.card:hover {
+    border-color: #3B82F6 !important;
+    transition: border-color 0.2s ease;
+}
+
+/* ── Hr separators ─────────────────────────────────────────────────────────── */
+hr {
+    border-color: #1e3a5f;
+    opacity: 0.6;
+}
+
+/* ── Code inline ───────────────────────────────────────────────────────────── */
+code {
+    background-color: #091626;
+    color: #3B82F6;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+/* ── Botones ───────────────────────────────────────────────────────────────── */
+.btn-primary {
+    background-color: #3B82F6 !important;
+    border-color: #3B82F6 !important;
+}
+
+.btn-primary:hover {
+    background-color: #2563EB !important;
+    border-color: #2563EB !important;
+}
+
+/* Slider tooltip - fondo oscuro texto blanco */
+.rc-slider-tooltip-content,
+.rc-slider-tooltip-inner {
+    background-color: #1e3a5f !important;
+    color: #ffffff !important;
+    border: 1px solid #3B82F6 !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    border-radius: 5px !important;
+    padding: 2px 8px !important;
+}
+
+/* Dash nuevo usa data-dash-is-loading y clases distintas */
+[data-dash-is-loading] { opacity: 0.6; }
+
+/* Slider value box - el cuadrado blanco con numero */
+.rc-slider-handle-dragging {
+    border-color: #3B82F6 !important;
+    box-shadow: 0 0 0 5px rgba(59,130,246,0.2) !important;
+}

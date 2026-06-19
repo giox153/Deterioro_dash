@@ -1,0 +1,135 @@
+{
+  "num_features": [
+    "Edad del Medidor",
+    "Lectura Acumulada",
+    "Ultimo Consumo Facturado",
+    "Score de Priorizacion Asignado",
+    "Deterioro del Consumo",
+    "Promedio de Consumo Real"
+  ],
+  "cat_features": [
+    "Tecnologia",
+    "Marca del Medidor",
+    "Diametro",
+    "Ultimo Metodo Facturado"
+  ],
+  "cat_options": {
+    "Tecnologia": [
+      "Medidor estático",
+      "Medidor mecánico",
+      "No registra"
+    ],
+    "Marca del Medidor": [
+      "A.B.B",
+      "AQUADIS",
+      "AQUAFORJAS",
+      "AWA",
+      "AYCHITOKE",
+      "B-METERS",
+      "C - MEDIDOR CH/UNICO SIRIUS DE 1/2",
+      "C - MEDIDOR ULTRASONICO HIDRUS DE 3\" BULK 2.0",
+      "C - MEDIDOR VOL. SAPPEL DE 1/2\" ALTAIR",
+      "C - SAPPEL MECANICO",
+      "C - SENSUS ELECTROMAGNETICO",
+      "C - VENUS CHORRO UNICO",
+      "C- MEDIDOR ULTRASONICO HIDRUS DE 6'BULK 2.0",
+      "C-MEDIDOR VOL. SAPPEL DE 1/2\" ALTAIR",
+      "CONTAGUA",
+      "CP - SIEMENS",
+      "DEL-U",
+      "DESCAL",
+      "DESCONOCIDO",
+      "ELSTER",
+      "H. MEINECKE",
+      "HIDRUS ULTRASONICO",
+      "IBERCONTA",
+      "KENT",
+      "LAO",
+      "LIANLI",
+      "MACROMEDIDOR SAPPEL DE 2\"",
+      "MACROMEDIDOR SAPPEL DE 3\"",
+      "MACROMEDIDOR ULTRASÓNICO DE 3\" BRIDADO",
+      "MACROMEDIDOR ULTRASÓNICO DE 4\" BRIDADO",
+      "MEDIDOR CH/UNICO SIRIUS DE 1/2\" R-315",
+      "MEDIDOR CH/UNICO WATERTECH DE 1/2¿ VENUS",
+      "MEDIDOR CH/UNICO WATERTECH DE 1/2Â¿ VENUS",
+      "MEDIDOR ELECTROMAGNETICO DE 1\"",
+      "MEDIDOR ELECTROMAGNETICO DE 1-1/2",
+      "MEDIDOR ELECTROMAGNETICO DE 1/2\"",
+      "MEDIDOR ELECTROMAGNETICO DE 3/4\"",
+      "MEDIDOR ELECTROMAGNETICO SENSUS DE 1\"",
+      "MEDIDOR ELECTROMAGNETICO SENSUS DE 1/2\"",
+      "MEDIDOR ELECTROMAGNETICO SENSUS DE 3/4\"",
+      "MEDIDOR OCTAVE 6\"",
+      "MEDIDOR SAPPEL DE 3/4\" ALTAIR DE DIEHL",
+      "MEDIDOR ULTRASONICO 2\" 2.0",
+      "MEDIDOR ULTRASONICO 3\"",
+      "MEDIDOR ULTRASONICO 4\" 2.0",
+      "MEDIDOR VOL. SAPPEL DE 1/2\" ALTAIR",
+      "MIG. TEMPORAL",
+      "Med. Centroaguas PDR",
+      "SAPPEL CHORRO UNICO",
+      "SAPPEL WESAN",
+      "SAPPEL-CORONA",
+      "SIEMENS",
+      "SOCAM",
+      "TAVIRA",
+      "TCL",
+      "VOL > 1/2\" SAPPEL"
+    ],
+    "Diametro": [
+      "1\"",
+      "1-1/2\"",
+      "1/2\"",
+      "2\"",
+      "3\"",
+      "3/4\"",
+      "4\"",
+      "6\"",
+      "8\"",
+      "NO REGISTRA"
+    ],
+    "Ultimo Metodo Facturado": [
+      "Estimado",
+      "Real"
+    ]
+  },
+  "num_ranges": {
+    "Edad del Medidor": {
+      "min": 0,
+      "max": 35,
+      "mean": 7,
+      "step": 1
+    },
+    "Lectura Acumulada": {
+      "min": 0,
+      "max": 8000,
+      "mean": 900,
+      "step": 50
+    },
+    "Ultimo Consumo Facturado": {
+      "min": 0,
+      "max": 60,
+      "mean": 13,
+      "step": 1
+    },
+    "Score de Priorizacion Asignado": {
+      "min": 0,
+      "max": 100,
+      "mean": 35,
+      "step": 1
+    },
+    "Deterioro del Consumo": {
+      "min": -95,
+      "max": 40,
+      "mean": -12,
+      "step": 1
+    },
+    "Promedio de Consumo Real": {
+      "min": 0,
+      "max": 80,
+      "mean": 15,
+      "step": 0.5
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Modelo entrenado
+model/model.pkl
+model/metrics.json
+model/feature_names.json
+
+# Dataset real (no subir al repo)
+data/Historico_sintetico.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
